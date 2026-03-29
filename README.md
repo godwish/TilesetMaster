@@ -1,7 +1,7 @@
 # 🎨 TilesetMaster
 
 [![Deployment](https://img.shields.io/badge/Live-Demo-brightgreen)](https://godwish.github.io/TilesetMaster/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 > **"원하는 타일만 쏙쏙 골라 담는, 게임 개발자를 위한 가장 쉬운 타일셋 편집기"**  
 > **Click here to run:** [https://godwish.github.io/TilesetMaster/](https://godwish.github.io/TilesetMaster/)
@@ -84,4 +84,4 @@ npm run deploy
 ---
 
 ## 📄 License
-This project is licensed under the MIT License.
+This project is licensed under the Apache License 2.0.
