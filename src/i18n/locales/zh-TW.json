@@ -1,0 +1,56 @@
+{
+  "toolbar": {
+    "file": "文件",
+    "view": "查看",
+    "image": "影像",
+    "newImage": "+ 新進影像",
+    "openFile": "開啟檔案",
+    "download": "下載",
+    "zoom": "縮放:",
+    "gridSize": "格線:",
+    "background": "背景色:",
+    "gridColor": "格線顏色:",
+    "showGrid": "顯示格線 (Tab)",
+    "applyResize": "套用尺寸",
+    "dragDropHint": "拖放 PNG 檔案到此處開啟",
+    "noActiveDoc": "目前無活動文件。請開啟或新建檔案。"
+  },
+  "editor": {
+    "pasted": "已貼上到畫布！",
+    "pasteError": "貼上失敗：目標區域不透明。",
+    "noSpace": "找不到足夠的透明區域來放置物件。",
+    "copied": "已複製！",
+    "autoPacked": "自動放置到: {{x}}, {{y}}",
+    "docNotFound": "未找到文件 {{id}}"
+  },
+  "prompts": {
+    "unsavedChanges": "\"{{title}}\" 有未儲存的變更。\n要在關閉前下載嗎？",
+    "exitWarning": "變更內容尚未下載。確定要結束嗎？"
+  },
+  "help": {
+    "title": "TilesetMaster 使用指南",
+    "mouseTitle": "🖱️ 滑鼠操作",
+    "mouse": {
+      "drag": "區域拖曳: 定義圖塊區域（釋放時自動複製）",
+      "click": "點選並拖曳: 剪下並開始移動模式",
+      "rightClickEmpty": "右鍵空白處: 貼上剪貼簿內容",
+      "rightClickObject": "右鍵物件: 自動對齊到空閒空間",
+      "pan": "中鍵點選 / Shift + 拖曳: 畫面移動 (Panning)",
+      "zoom": "滑鼠滾輪: 放大 / 縮小"
+    },
+    "shortcutTitle": "⌨️ 快捷鍵",
+    "shortcuts": {
+      "copy": "Ctrl + C / X / V: 複製、剪下、貼上",
+      "undo": "Ctrl + Z / Shift+Z (或 Ctrl+Y): 复原 / 重做",
+      "grid": "Tab: 開啟 / 關閉格線",
+      "cancel": "Esc / Backspace / Delete: 取消選擇或刪除物件",
+      "confirm": "Enter / Space: 將浮動塊固定到目前位置"
+    },
+    "tipTitle": "💡 提示",
+    "tips": {
+      "trim": "拖曳選擇區域時會自動裁切多餘的透明部分。",
+      "move": "選擇區域後再次在其內部點選可立即開始移動。",
+      "bg": "更改背景顏色可以更清晰地檢視透明像素。"
+    }
+  }
+}

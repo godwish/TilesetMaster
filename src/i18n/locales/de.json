@@ -1,0 +1,56 @@
+{
+  "toolbar": {
+    "file": "Datei",
+    "view": "Ansicht",
+    "image": "Bild",
+    "newImage": "+ Neues Bild",
+    "openFile": "Datei öffnen",
+    "download": "Herunterladen",
+    "zoom": "Zoom:",
+    "gridSize": "Raster:",
+    "background": "Hintergrund:",
+    "gridColor": "Rasterfarbe:",
+    "showGrid": "Raster (Tab)",
+    "applyResize": "Größe anwenden",
+    "dragDropHint": "PNG-Dateien hierher ziehen",
+    "noActiveDoc": "Kein aktives Dokument. Öffnen/Erstellen."
+  },
+  "editor": {
+    "pasted": "Auf Leinwand eingefügt!",
+    "pasteError": "Fehler: Zielbereich nicht transparent.",
+    "noSpace": "Nicht genug Platz für das Objekt.",
+    "copied": "Kopiert!",
+    "autoPacked": "Auto-pack: {{x}}, {{y}}",
+    "docNotFound": "Dokument {{id}} nicht gefunden"
+  },
+  "prompts": {
+    "unsavedChanges": "Ungespeicherte Änderungen in \"{{title}}\".\nVor dem Schließen herunterladen?",
+    "exitWarning": "Änderungen nicht heruntergeladen. Beenden?"
+  },
+  "help": {
+    "title": "TilesetMaster Anleitung",
+    "mouseTitle": "🖱️ Maussteuerung",
+    "mouse": {
+      "drag": "Drag: Auswahl (kopiert automatisch)",
+      "click": "Klick Bereich: Ausschneiden und Bewegen",
+      "rightClickEmpty": "Rechts leer: Einfügen",
+      "rightClickObject": "Rechts Objekt: Smart Pack",
+      "pan": "Rad-Klick / Shift+Drag: Panning",
+      "zoom": "Mausrad: Zoom"
+    },
+    "shortcutTitle": "⌨️ Shortcuts",
+    "shortcuts": {
+      "copy": "Ctrl + C / X / V: Kopieren, Ausschneiden, Einfügen",
+      "undo": "Ctrl + Z / Shift+Z (oder Ctrl+Y): Zurück / Vor",
+      "grid": "Tab: Raster ein/aus",
+      "cancel": "Esc / Entf: Abbrechen oder Löschen",
+      "confirm": "Enter / Leer: Fixieren"
+    },
+    "tipTitle": "💡 Tipps",
+    "tips": {
+      "trim": "Auto-Trim entfernt transparente Ränder.",
+      "move": "Innerer Klick zum sofortigen Bewegen.",
+      "bg": "Hintergrund ändern, um Transparenz zu sehen."
+    }
+  }
+}

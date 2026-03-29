@@ -1,0 +1,56 @@
+{
+  "toolbar": {
+    "file": "ファイル",
+    "view": "表示",
+    "image": "画像",
+    "newImage": "+ 新規作成",
+    "openFile": "ファイルを開く",
+    "download": "ダウンロード",
+    "zoom": "ズーム:",
+    "gridSize": "グリッド:",
+    "background": "背景色:",
+    "gridColor": "グリッド色:",
+    "showGrid": "グリッド表示 (Tab)",
+    "applyResize": "サイズ適用",
+    "dragDropHint": "PNGファイルをドラッグして開く",
+    "noActiveDoc": "アクティブな文書がありません。ファイルを開くか新規作成してください。"
+  },
+  "editor": {
+    "pasted": "キャンバスに貼り付け完了！",
+    "pasteError": "貼り付け失敗：対象エリアが透明ではありません。",
+    "noSpace": "配置できる透明領域が見つかりませんでした。",
+    "copied": "コピー済み！",
+    "autoPacked": "空き領域に自動配置: {{x}}, {{y}}",
+    "docNotFound": "文書 {{id}} が見つかりません。"
+  },
+  "prompts": {
+    "unsavedChanges": "\"{{title}}\" の変更が保存されていません。\n閉じる前にダウンロードしますか？",
+    "exitWarning": "変更内容が保存されていません。終了してもよろしいですか？"
+  },
+  "help": {
+    "title": "TilesetMaster 使用ガイド",
+    "mouseTitle": "🖱️ マウス操作",
+    "mouse": {
+      "drag": "領域ドラッグ: タイル領域を指定（離すと自動コピー）",
+      "click": "選択内クリック: 切り取り＆移動モード開始",
+      "rightClickEmpty": "空白右クリック: クリップボードを貼り付け",
+      "rightClickObject": "物体右クリック: 自動配置 (Smart Pack)",
+      "pan": "ホイールクリック / Shift+ドラッグ: 画面移動 (Panning)",
+      "zoom": "マウスホイール: 拡大 / 縮小"
+    },
+    "shortcutTitle": "⌨️ ショートカット",
+    "shortcuts": {
+      "copy": "Ctrl + C / X / V: コピー、切り取り、貼り付け",
+      "undo": "Ctrl + Z / Shift+Z (または Ctrl+Y): 元に戻す / やり直し",
+      "grid": "Tab: グリッドの表示切り替え",
+      "cancel": "Esc / Backspace / Delete: 選択解除または削除",
+      "confirm": "Enter / Space: フローティングブロックを固定"
+    },
+    "tipTitle": "💡 ヒント",
+    "tips": {
+      "trim": "ドラッグ時に余白を自動でトリミングしてコピーします。",
+      "move": "領域指定後、中をもう一度クリックするとすぐに移動できます。",
+      "bg": "背景色を変えると透明ピクセルの確認がしやすくなります。"
+    }
+  }
+}

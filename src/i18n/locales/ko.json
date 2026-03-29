@@ -1,0 +1,56 @@
+{
+  "toolbar": {
+    "file": "파일",
+    "view": "보기",
+    "image": "이미지",
+    "newImage": "+ 새 이미지",
+    "openFile": "파일 열기",
+    "download": "다운로드",
+    "zoom": "확대:",
+    "gridSize": "그리드:",
+    "background": "배경색:",
+    "gridColor": "그리드 색상:",
+    "showGrid": "그리드 표시 (Tab)",
+    "applyResize": "크기 적용",
+    "dragDropHint": "PNG 파일을 여기로 드래그하여 열기",
+    "noActiveDoc": "활성 문서가 없습니다. 파일을 열거나 새로 만드세요."
+  },
+  "editor": {
+    "pasted": "캔버스에 붙여넣기 완료!",
+    "pasteError": "붙여넣기 실패: 대상 영역이 투명하지 않습니다.",
+    "noSpace": "배치할 수 있는 충분한 투명 영역(공간)을 찾을 수 없습니다.",
+    "copied": "복사됨!",
+    "autoPacked": "빈 공간에 자동 배치됨: {{x}}, {{y}}",
+    "docNotFound": "문서 {{id}}를 찾을 수 없습니다."
+  },
+  "prompts": {
+    "unsavedChanges": "\"{{title}}\"의 변경 사항이 있습니다.\n닫기 전에 파일을 다운로드 하시겠습니까?",
+    "exitWarning": "변경 사항이 다운로드되지 않았습니다. 그래도 나가시겠습니까?"
+  },
+  "help": {
+    "title": "TilesetMaster 사용 가이드",
+    "mouseTitle": "🖱️ 마우스 조작",
+    "mouse": {
+      "drag": "영역 드래그: 타일 영역을 지정합니다. (마우스를 떼면 자동 복사)",
+      "click": "선택 영역 클릭: 해당 영역을 잘라내기 하여 이동 모드 시작",
+      "rightClickEmpty": "빈 공간 우클릭: 클립보드의 내용을 현재 위치에 붙여넣기",
+      "rightClickObject": "오브젝트 우클릭: 떠다니는 블록을 빈 공간에 자동 배치 (Smart Pack)",
+      "pan": "휠 클릭 / Shift + 드래그: 화면 자유 이동 (Panning)",
+      "zoom": "마우스 휠: 화면 확대 / 축소"
+    },
+    "shortcutTitle": "⌨️ 주요 단축키",
+    "shortcuts": {
+      "copy": "Ctrl + C / X / V: 복사, 잘라내기, 붙여넣기",
+      "undo": "Ctrl + Z / Shift+Z (또는 Ctrl+Y): 실행 취소 / 다시 실행",
+      "grid": "Tab: 그리드(Grid) 켜기 / 끄기",
+      "cancel": "Esc / Backspace / Delete: 선택 취소 또는 오브젝트 삭제",
+      "confirm": "Enter / Space: 떠다니는 블록을 현재 위치에 고정"
+    },
+    "tipTitle": "💡 팁",
+    "tips": {
+      "trim": "영역 드래그 시 자동으로 최적의 크기로 Trim(여백 제거) 되어 복사됩니다.",
+      "move": "영역 지정 후 그 안을 다시 클릭하면 바로 이동 시킬 수 있어 편리합니다.",
+      "bg": "배경색을 변경하면 작업 투명 픽셀 확인이 훨씬 쉬워집니다."
+    }
+  }
+}

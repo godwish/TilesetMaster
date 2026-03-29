@@ -1,0 +1,56 @@
+{
+  "toolbar": {
+    "file": "File",
+    "view": "View",
+    "image": "Image",
+    "newImage": "+ New Image",
+    "openFile": "Open File",
+    "download": "Download",
+    "zoom": "Zoom:",
+    "gridSize": "Grid:",
+    "background": "Background:",
+    "gridColor": "Grid Color:",
+    "showGrid": "Show Grid (Tab)",
+    "applyResize": "Apply Resize",
+    "dragDropHint": "Drag & Drop PNGs here to open",
+    "noActiveDoc": "No active document. Open or create a file first."
+  },
+  "editor": {
+    "pasted": "Pasted to Canvas!",
+    "pasteError": "Cannot Paste: Target area is not fully transparent.",
+    "noSpace": "Cannot find enough transparent area (space) to place the object.",
+    "copied": "Copied!",
+    "autoPacked": "Auto-packed to {{x}}, {{y}}",
+    "docNotFound": "Document {{id}} not found"
+  },
+  "prompts": {
+    "unsavedChanges": "\"{{title}}\" has unsaved changes.\nDo you want to download before closing?",
+    "exitWarning": "Changes have not been downloaded. Are you sure you want to exit?"
+  },
+  "help": {
+    "title": "TilesetMaster Usage Guide",
+    "mouseTitle": "🖱️ Mouse Controls",
+    "mouse": {
+      "drag": "Drag Area: Define tile area (automatically copies on release)",
+      "click": "Click Selection: Cut and start move mode",
+      "rightClickEmpty": "Right-Click Empty: Paste clipboard content",
+      "rightClickObject": "Right-Click Object: Auto-pack to empty space",
+      "pan": "Wheel Click / Shift + Drag: Screen Panning",
+      "zoom": "Mouse Wheel: Zoom In / Out"
+    },
+    "shortcutTitle": "⌨️ Key Shortcuts",
+    "shortcuts": {
+      "copy": "Ctrl + C / X / V: Copy, Cut, Paste",
+      "undo": "Ctrl + Z / Shift+Z (or Ctrl+Y): Undo / Redo",
+      "grid": "Tab: Toggle Grid On/Off",
+      "cancel": "Esc / Backspace / Delete: Cancel selection or delete object",
+      "confirm": "Enter / Space: Lock floating object to current position"
+    },
+    "tipTitle": "💡 Tips",
+    "tips": {
+      "trim": "Auto-trim removes transparency when dragging a selection.",
+      "move": "Click again inside selection to move it immediately.",
+      "bg": "Change background color to see transparent pixels clearly."
+    }
+  }
+}

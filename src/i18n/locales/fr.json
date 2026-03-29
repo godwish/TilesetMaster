@@ -1,0 +1,56 @@
+{
+  "toolbar": {
+    "file": "Fichier",
+    "view": "Vue",
+    "image": "Image",
+    "newImage": "+ Nouveau",
+    "openFile": "Ouvrir",
+    "download": "Télécharger",
+    "zoom": "Zoom:",
+    "gridSize": "Grille:",
+    "background": "Fond:",
+    "gridColor": "Couleur Grille:",
+    "showGrid": "Grille (Tab)",
+    "applyResize": "Appliquer",
+    "dragDropHint": "Glissez des fichiers PNG ici",
+    "noActiveDoc": "Aucun doc actif. Ouvrez/créez-en un."
+  },
+  "editor": {
+    "pasted": "Collé sur le canevas !",
+    "pasteError": "Erreur : zone non transparente.",
+    "noSpace": "Pas assez d'espace pour l'objet.",
+    "copied": "Copié !",
+    "autoPacked": "Auto-packé : {{x}}, {{y}}",
+    "docNotFound": "Doc {{id}} non trouvé"
+  },
+  "prompts": {
+    "unsavedChanges": "Modifs non sauvées sur \"{{title}}\".\nTélécharger avant de fermer ?",
+    "exitWarning": "Modifs non sauvées. Quitter ?"
+  },
+  "help": {
+    "title": "Aide TilesetMaster",
+    "mouseTitle": "🖱️ Souris",
+    "mouse": {
+      "drag": "Drag: Sélection (copie auto)",
+      "click": "Click zone: Couper et déplacer",
+      "rightClickEmpty": "Droit vide: Coller",
+      "rightClickObject": "Droit objet: Smart Pack",
+      "pan": "Click molette / Shift+Drag: Pan",
+      "zoom": "Molette: Zoom"
+    },
+    "shortcutTitle": "⌨️ Raccourcis",
+    "shortcuts": {
+      "copy": "Ctrl + C / X / V: Copier, Couper, Coller",
+      "undo": "Ctrl + Z / Shift+Z (ou Ctrl+Y): Précédent / Suivant",
+      "grid": "Tab: Grille on/off",
+      "cancel": "Esc / Suppr: Annuler ou supprimer",
+      "confirm": "Entrée / Espace: Fixer"
+    },
+    "tipTitle": "💡 Astuces",
+    "tips": {
+      "trim": "Auto-trim enlève les bords transparents.",
+      "move": "Click interne pour bouger direct.",
+      "bg": "Changez le fond pour voir les transparences."
+    }
+  }
+}

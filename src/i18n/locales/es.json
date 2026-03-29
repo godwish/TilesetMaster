@@ -1,0 +1,56 @@
+{
+  "toolbar": {
+    "file": "Archivo",
+    "view": "Ver",
+    "image": "Imagen",
+    "newImage": "+ Nueva",
+    "openFile": "Abrir",
+    "download": "Descargar",
+    "zoom": "Zoom:",
+    "gridSize": "Rejilla:",
+    "background": "Fondo:",
+    "gridColor": "Color Rejilla:",
+    "showGrid": "Rejilla (Tab)",
+    "applyResize": "Aplicar",
+    "dragDropHint": "Arrastre PNGs aquí para abrir",
+    "noActiveDoc": "No hay doc activo. Abra o cree uno."
+  },
+  "editor": {
+    "pasted": "¡Pegado en el lienzo!",
+    "pasteError": "Error: el área no es transparente.",
+    "noSpace": "No hay espacio suficiente para colocar el objeto.",
+    "copied": "¡Copiado!",
+    "autoPacked": "Auto-empaquetado: {{x}}, {{y}}",
+    "docNotFound": "Documento {{id}} no encontrado"
+  },
+  "prompts": {
+    "unsavedChanges": "Cambios sin guardar en \"{{title}}\".\n¿Descargar antes de cerrar?",
+    "exitWarning": "Cambios no guardados. ¿Seguro que desea salir?"
+  },
+  "help": {
+    "title": "Guía de TilesetMaster",
+    "mouseTitle": "🖱️ Ratón",
+    "mouse": {
+      "drag": "Arrastrar: Seleccionar (copia automática)",
+      "click": "Click en área: Cortar y mover",
+      "rightClickEmpty": "Click derecho vacío: Pegar",
+      "rightClickObject": "Click derecho objeto: Smart Pack",
+      "pan": "Click rueda / Shift+Drag: Desplazar",
+      "zoom": "Rueda ratón: Zoom"
+    },
+    "shortcutTitle": "⌨️ Atajos",
+    "shortcuts": {
+      "copy": "Ctrl + C / X / V: Copiar, Cortar, Pegar",
+      "undo": "Ctrl + Z / Shift+Z (o Ctrl+Y): Deshacer / Rehacer",
+      "grid": "Tab: Rejilla on/off",
+      "cancel": "Esc / Del: Cancelar o borrar",
+      "confirm": "Enter / Space: Fijar objeto"
+    },
+    "tipTitle": "💡 Consejos",
+    "tips": {
+      "trim": "Auto-trim elimina bordes vacíos al copiar.",
+      "move": "Click interno para mover inmediatamente.",
+      "bg": "Cambie el fondo para ver transparencias."
+    }
+  }
+}
