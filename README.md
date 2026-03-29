@@ -8,10 +8,15 @@
 > **"원하는 타일만 쏙쏙 골라 담는, 게임 개발자를 위한 가장 쉬운 타일셋 편집기"**  
 > **Click here to run:** [https://godwish.github.io/TilesetMaster/](https://godwish.github.io/TilesetMaster/)
 
-
 ---
 
+## 스크린샷들
+
 <img width="1300" height="944" alt="Hero Image" src="https://github.com/user-attachments/assets/881e7f8a-cec9-41dc-9ffc-be67d6bb14b6" />
+<img width="1293" height="907" alt="About TilesetMaster" src="https://github.com/user-attachments/assets/ca7887ef-b61f-4a0c-b864-d655e119046a" />
+<img width="1297" height="898" alt="Key Features" src="https://github.com/user-attachments/assets/b2d0d6bd-e49e-448d-b5f8-e5c060a53948" />
+<img width="1303" height="934" alt="Controls" src="https://github.com/user-attachments/assets/cf2abdeb-66ec-41fe-99a4-7dfebfd97c5e" />
+<img width="1291" height="898" alt="Setup & Features" src="https://github.com/user-attachments/assets/2b7e6a88-7a8c-4f36-9cb9-53633196d343" />
 
 ---
 
@@ -23,9 +28,6 @@
 
 여러 이미지에서 필요한 부분만 드래그하여 하나의 캔버스로 모으고, 빈 공간에 자동으로 배치하며, 나만의 완벽한 타일셋을 완성해 보세요.
 
-
-<img width="1293" height="907" alt="About TilesetMaster" src="https://github.com/user-attachments/assets/ca7887ef-b61f-4a0c-b864-d655e119046a" />
-
 ---
 
 ## ✨ 주요 기능 (Key Features)
@@ -36,9 +38,6 @@
 - **다국어 지원 (i18n)**: 한국어, 영어, 일본어, 중국어 등 총 9개 국어를 지원합니다.
   - 🇰🇷 한국어, 🇺🇸 English, 🇯🇵 日本語, 🇨🇳 简体中文, 🇹🇼 繁體中文, 🇷🇺 Русский, 🇪🇸 Español, 🇫🇷 Français, 🇩🇪 Deutsch
 - **강력한 캔버스 제어**: 무한 팬(Panning)과 줌(Zoom), 그리드 스냅 기능을 통해 정교한 작업이 가능합니다.
-
-
-<img width="1297" height="898" alt="Key Features" src="https://github.com/user-attachments/assets/b2d0d6bd-e49e-448d-b5f8-e5c060a53948" />
 
 ---
 
@@ -58,9 +57,6 @@
 - `Tab`: 그리드(Grid) 켜기 / 끄기
 - `Esc / Backspace / Delete`: 현재 선택이나 이동 중인 블록을 취소하거나 삭제합니다.
 - `Enter / Space`: 이동 중인 블록을 현재 위치에 고정합니다.
-
-
-<img width="1303" height="934" alt="Controls" src="https://github.com/user-attachments/assets/cf2abdeb-66ec-41fe-99a4-7dfebfd97c5e" />
 
 ---
 
@@ -97,9 +93,6 @@ npm run build
 # GitHub Pages 배포
 npm run deploy
 ```
-
-
-<img width="1291" height="898" alt="Setup & Features" src="https://github.com/user-attachments/assets/2b7e6a88-7a8c-4f36-9cb9-53633196d343" />
 
 ---
 
