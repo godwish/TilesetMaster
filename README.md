@@ -3,6 +3,8 @@
 [![Deployment](https://img.shields.io/badge/Live-Demo-brightgreen)](https://godwish.github.io/TilesetMaster/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
+🇰🇷 🇺🇸 🇯🇵 🇨🇳 🇹🇼 🇷🇺 🇪🇸 🇫🇷 🇩🇪
+
 > **"원하는 타일만 쏙쏙 골라 담는, 게임 개발자를 위한 가장 쉬운 타일셋 편집기"**  
 > **Click here to run:** [https://godwish.github.io/TilesetMaster/](https://godwish.github.io/TilesetMaster/)
 
@@ -24,6 +26,7 @@
 - **자동 여백 제거 (Auto-Trim)**: 영역을 선택하면 주변의 투명한 여백을 자동으로 계산하여 실제 픽셀 데이터만 깔끔하게 복사합니다.
 - **스마트 배치 (Smart Packing)**: 타일 블록을 빈 공간에 우클릭 한 번으로 자동으로 빈틈없이 배치할 수 있습니다.
 - **다국어 지원 (i18n)**: 한국어, 영어, 일본어, 중국어 등 총 9개 국어를 지원합니다.
+  - 🇰🇷 한국어, 🇺🇸 English, 🇯🇵 日本語, 🇨🇳 简体中文, 🇹🇼 繁體中文, 🇷🇺 Русский, 🇪🇸 Español, 🇫🇷 Français, 🇩🇪 Deutsch
 - **강력한 캔버스 제어**: 무한 팬(Panning)과 줌(Zoom), 그리드 스냅 기능을 통해 정교한 작업이 가능합니다.
 
 ---
