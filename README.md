@@ -1,73 +1,87 @@
-# React + TypeScript + Vite
+# 🎨 TilesetMaster
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Deployment](https://img.shields.io/badge/Live-Demo-brightgreen)](https://godwish.github.io/TilesetMaster/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Currently, two official plugins are available:
+> **"원하는 타일만 쏙쏙 골라 담는, 게임 개발자를 위한 가장 쉬운 타일셋 편집기"**  
+> **Click here to run:** [https://godwish.github.io/TilesetMaster/](https://godwish.github.io/TilesetMaster/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌟 프로젝트 소개 (About TilesetMaster)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+게임 개발자가 게임을 만들기 위해 많은 유/무료 에셋을 모으게 되는데, 특히 도트 게임용 타일셋을 찾다 보면 하나의 파일 안에 내가 원하는 타일만 있는 것이 아니라는 것을 알게 됩니다. 
 
-## Expanding the ESLint configuration
+여러 타일셋 파일들에서 내가 정작 필요한 타일들만 골라내어 새로운 타일셋 파일로 합치고 정리하는 과정은 번거롭고 시간이 많이 걸리는 작업입니다. **TilesetMaster**는 이 과정을 극도로 단순화하고 직관적으로 만들기 위해 탄생했습니다.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+여러 이미지에서 필요한 부분만 드래그하여 하나의 캔버스로 모으고, 빈 공간에 자동으로 배치하며, 나만의 완벽한 타일셋을 완성해 보세요.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## ✨ 주요 기능 (Key Features)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- **마우스 기반 워크플로우**: 복잡한 단축키 없이 마우스 클릭과 드래그만으로 모든 편집이 가능합니다.
+- **자동 여백 제거 (Auto-Trim)**: 영역을 선택하면 주변의 투명한 여백을 자동으로 계산하여 실제 픽셀 데이터만 깔끔하게 복사합니다.
+- **스마트 배치 (Smart Packing)**: 타일 블록을 빈 공간에 우클릭 한 번으로 자동으로 빈틈없이 배치할 수 있습니다.
+- **다국어 지원 (i18n)**: 한국어, 영어, 일본어, 중국어 등 총 9개 국어를 지원합니다.
+- **강력한 캔버스 제어**: 무한 팬(Panning)과 줌(Zoom), 그리드 스냅 기능을 통해 정교한 작업이 가능합니다.
+
+---
+
+## 🖱️ 조작 방법 (Controls)
+
+### 마우스 조작
+- **영역 드래그**: 타일 영역을 지정합니다. (마우스를 떼면 자동으로 복사됩니다.)
+- **선택 영역 클릭**: 지정된 영역을 잘라내어 즉시 이동 모드로 전환합니다.
+- **빈 공간 우클릭**: 클립보드에 복사된 내용을 현재 위치에 붙여넣습니다.
+- **오브젝트 우클릭**: 현재 들고 있는 타일 블록을 캔버스의 빈 공간에 자동으로 배치합니다.
+- **휠 클릭 / Shift + 드래그**: 화면을 자유롭게 이동(Panning)합니다.
+- **마우스 휠**: 화면을 확대하거나 축소합니다.
+
+### 주요 단축키
+- `Ctrl + C / X / V`: 복사, 잘라내기, 붙여넣기
+- `Ctrl + Z / Shift + Z (또는 Ctrl + Y)`: 실행 취소 / 다시 실행
+- `Tab`: 그리드(Grid) 켜기 / 끄기
+- `Esc / Backspace / Delete`: 현재 선택이나 이동 중인 블록을 취소하거나 삭제합니다.
+- `Enter / Space`: 이동 중인 블록을 현재 위치에 고정합니다.
+
+---
+
+## 🛠️ 개발 및 설치 (Development & Setup)
+
+로컬 환경에서 개발하거나 빌드하려면 아래 단계를 따르세요.
+
+### Requirements
+- Node.js (Latest LTS recommended)
+- npm or yarn
+
+### Installation
+```bash
+# 저장소 클론
+git clone https://github.com/godwish/TilesetMaster.git
+
+# 프로젝트 폴더로 이동
+cd TilesetMaster
+
+# 의존성 설치
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Development
+```bash
+npm run dev
 ```
+
+### Build & Deploy
+```bash
+# 프로덕션 빌드
+npm run build
+
+# GitHub Pages 배포
+npm run deploy
+```
+
+---
+
+## 📄 License
+This project is licensed under the MIT License.
